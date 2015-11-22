@@ -1,6 +1,6 @@
 require 'sinatra'
 require 'data_mapper'
-require './guests.rb'
+require './models/guests.rb'
 
 get '/' do
   erb :index
