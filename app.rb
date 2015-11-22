@@ -19,3 +19,9 @@ get '/secret' do
   @guests = Guest.all
   erb :secret
 end
+
+post '/secret' do
+  entry = Guest.get(params[:id])
+  entry.destroy
+  redirect to ('/secret')
+end
