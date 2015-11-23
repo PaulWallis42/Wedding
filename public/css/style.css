@@ -1,10 +1,20 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600,300);
+
+body {
+
+  background-image: url('/images/love.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 #cssmenu {
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, Sans-Serif;
   font-size: 10px;
   line-height: 15px;
   text-transform: uppercase;
-  text-align: left;
+  text-align: center;
+  width: 30%;
+  margin-left: 35%;
 }
 #cssmenu > ul {
   width: auto;
@@ -129,7 +139,6 @@
     display: block !important;
   }
 }
-
 
 .pics img {
     display: block;
