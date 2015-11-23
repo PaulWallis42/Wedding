@@ -21,3 +21,7 @@ post '/secret' do
   entry.destroy
   redirect to ('/secret')
 end
+
+get '/photos' do
+  erb :photos
+end
