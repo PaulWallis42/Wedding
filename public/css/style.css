@@ -1,11 +1,11 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600,300);
 
-body {
+/*body {
 
-  background-image: url('/images/.jpg');
+  background-image: url('/images/love.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-}
+}*/
 
 #cssmenu {
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, Sans-Serif;
