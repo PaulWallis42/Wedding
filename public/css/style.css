@@ -1,13 +1,3 @@
-body {
-  /*  background-image: url("/images/photo_10.jpg");
-    background-repeat: no-repeat;
-    background-size: 100% 100%;   */
-    background-color: lightblue;
-}
-/* html {
-    height: 100%
-} */
-
 .pics img {
     display: block;
     margin-left: auto;
