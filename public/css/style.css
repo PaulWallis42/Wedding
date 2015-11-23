@@ -21,9 +21,8 @@ body {
   list-style-type: none;
   padding: 0;
   margin: 0;
-  background: #ffffff;
-  border: 1px solid #ece6e8;
-  border-bottom: 3px solid #d9ced2;
+  /*border: 1px solid #ece6e8;
+  border-bottom: 3px solid #d9ced2;*/
   -webkit-border-radius: 2px;
   -moz-border-radius: 2px;
   -o-border-radius: 2px;
