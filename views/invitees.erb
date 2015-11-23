@@ -1,4 +1,4 @@
-<form action="/invitees" method="post">
+<!--<form action="/invitees" method="post">
   Guest Name:
   <input type="text" name="name">
   <br>
@@ -12,5 +12,40 @@
   Special Requirements:
   <input type="text" name="requests">
   <br>
-  <input type="submit" value="Submit">
+  <input type="submit" value="Submit" id="submit">
+</form>-->
+<!DOCTYPE html>
+<html>
+<head>
+<title>Popup contact form</title>
+<link href="css/elements.css" rel="stylesheet">
+<script src="js/my_js.js"></script>
+</head>
+<!-- Body Starts Here -->
+<body id="body" style="overflow:hidden;">
+<div id="abc">
+<!-- Popup Div Starts Here -->
+<div id="popupContact">
+<!-- Contact Us Form -->
+<form action="/invitees" id="form" method="post" name="form">
+<img id="close" src="images/3.png" onclick ="div_hide()">
+<h2>Confirmation</h2>
+<hr>
+<input id="name" name="name" placeholder="Guest Name" type="text">
+<h3>Attending</h3>
+<input type="radio" name="attending" value="Yes">Yes
+<br>
+<input type="radio" name="attending" value="No">No
+<input id="name" name="others" placeholder="Partners / Kids Name(s)" type="text">
+<textarea id="msg" name="requests" placeholder="Special Requirements / Comments"></textarea>
+<input type="submit" value="Submit" id="submit">
 </form>
+</div>
+<!-- Popup Div Ends Here -->
+</div>
+<!-- Display Popup Button -->
+<h1>Click Button To Accept or Decline Invitation</h1>
+<button id="popup" onclick="div_show()">Accept or Decline</button>
+</body>
+<!-- Body Ends Here -->
+</html>
