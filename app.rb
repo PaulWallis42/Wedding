@@ -25,3 +25,11 @@ end
 get '/photos' do
   erb :photos
 end
+
+get '/info' do
+  erb :info
+end
+
+get '/contact' do
+  erb :contact
+end
