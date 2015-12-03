@@ -22,10 +22,6 @@ post '/secret' do
   redirect to ('/secret')
 end
 
-get '/photos' do
-  erb :photos
-end
-
 get '/info' do
   erb :info
 end
