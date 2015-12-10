@@ -8,7 +8,7 @@ end
 
 post '/invitees' do
   Guest.create(name: params[:name], attending: params[:attending], others: params[:others], requests: params[:requests])
-  redirect to('/')
+  redirect to('/rsvp_conf')
 end
 
 get '/secret' do
@@ -28,4 +28,8 @@ end
 
 get '/contact' do
   erb :contact
+end
+
+get '/rsvp_conf' do
+  erb :rsvp_conf
 end
