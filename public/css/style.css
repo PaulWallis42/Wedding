@@ -21,16 +21,15 @@
 }
 
 #cssmenu > ul {
-  margin-left: 30%;
   list-style-type: none;
   padding: 0;
   margin: 0;
-  /*border: 1px solid #ece6e8;
-  border-bottom: 3px solid #d9ced2;*/
   -webkit-border-radius: 2px;
   -moz-border-radius: 2px;
   -o-border-radius: 2px;
   border-radius: 2px;
+  position: absolute;
+  margin-left: 32%;
 }
 #cssmenu > ul li#responsive-tab {
   display: none;
