@@ -1,11 +1,7 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600,300);
 
-body {
-  background-color: black;
-}
-
 .guests {
-  color: white;
+  color: black;
 }
 
 #cssmenu {
