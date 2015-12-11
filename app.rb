@@ -33,3 +33,7 @@ end
 get '/rsvp_conf' do
   erb :rsvp_conf
 end
+
+get '/pictures' do
+  erb :pictures
+end
