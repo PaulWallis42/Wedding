@@ -14,6 +14,14 @@ class Guest
   property :attending,    String
   property :others, String
   property :requests, String
+  property :guest1_menu, String
+  property :partner_name, String
+  property :partner_menu, String
+  property :child_1_name, String
+  property :child_1_menu, String
+  property :child_2_name, String
+  property :child_2_menu, String
+  property :bbq, String
 
 end
 

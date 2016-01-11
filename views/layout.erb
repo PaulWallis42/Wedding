@@ -32,7 +32,7 @@
 <img id="close" src="images/3.png" onclick ="div_hide()">
 <h2>RSVP</h2>
 <input id="name" name="name" placeholder="Guest Full Name" type="text">
-<h3>Attending?</h3>
+<h3>Attending The Wedding?</h3>
 <input id="yes" type="radio" name="attending" value="Yes">Yes
 <br>
 <input id="yes_partner" type="radio" name="attending" value="Yes">Yes + Partner
@@ -45,9 +45,9 @@
 <h3 class="yes">Please choose your entree</h3>
 <select class="yes" name="g1_menu">
   <option>Menu Options</option>
-  <option value="beef">Beef</option>
-  <option value="chicken">Chicken</option>
-  <option value="fish">Fish</option>
+  <option value="Beef">Beef</option>
+  <option value="Chicken">Chicken</option>
+  <option value="Fish">Fish</option>
   <option value="Veggie">Veggie</option>
 </select>
 
@@ -57,9 +57,9 @@
 <br>
 <select name="g2_menu">
   <option>Partners Entree Options</option>
-  <option value="beef">Beef</option>
-  <option value="chicken">Chicken</option>
-  <option value="fish">Fish</option>
+  <option value="Beef">Beef</option>
+  <option value="Chicken">Chicken</option>
+  <option value="Fish">Fish</option>
   <option value="Veggie">Veggie</option>
 </select>
 </div>
@@ -70,9 +70,9 @@
 <br>
 <select class="yes_partner_kids" name="g3_menu">
   <option>Juniors Menu Options</option>
-  <option value="beef">Beef</option>
-  <option value="chicken">Chicken</option>
-  <option value="fish">Fish</option>
+  <option value="Beef">Beef</option>
+  <option value="Chicken">Chicken</option>
+  <option value="Fish">Fish</option>
   <option value="Veggie">Veggie</option>
 </select>
 </div>
@@ -83,13 +83,18 @@
 <br>
 <select name="g4_menu">
   <option>Juniors Menu Options</option>
-  <option value="beef">Beef</option>
-  <option value="chicken">Chicken</option>
-  <option value="fish">Fish</option>
+  <option value="Beef">Beef</option>
+  <option value="Chicken">Chicken</option>
+  <option value="Fish">Fish</option>
   <option value="Veggie">Veggie</option>
 </select>
 </div>
 
+<div class="yes">
+<h3>Attending The BBQ?</h3>
+<input type="radio" name="bbq" value="Yes">Yes
+<input type="radio" name="bbq" value="No">No
+</div>
 
 <textarea class="yes" id="msg" name="requests" placeholder="Special Requirements / Comments"></textarea>
 <input class="send" type="submit" value="Submit" id="submit">
