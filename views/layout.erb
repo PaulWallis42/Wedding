@@ -31,7 +31,6 @@
 <form action="/invitees" id="form" method="post" name="form">
 <img id="close" src="images/3.png" onclick ="div_hide()">
 <h2>RSVP</h2>
-<input id="name" name="name" placeholder="Guest Full Name" type="text">
 <h3>Attending The Wedding?</h3>
 <input id="yes" type="radio" name="attending" value="Yes">Yes
 <br>
@@ -41,6 +40,10 @@
 <br>
 <input id="no" type="radio" name="attending" value="No">No
 
+<div class=main_guest>
+<input id="name" name="name" placeholder="Guest Name" type="text">
+</div>
+<br>
 
 <h3 class="yes">Please choose your entree</h3>
 <select class="yes" name="g1_menu">
@@ -52,7 +55,7 @@
 </select>
 
 <div class="yes_partner">
-<input name="g2_name" placeholder="Partners Full Name" type="text">
+<input name="g2_name" placeholder="Partners Name" type="text">
 <br>
 <br>
 <select name="g2_menu">
@@ -65,11 +68,11 @@
 </div>
 
 <div class="yes_partner_kids">
-<input name="g3_name" placeholder="Juniors Full Name" type="text">
+<input name="g3_name" placeholder="Juniors Name" type="text">
 <br>
 <br>
 <select class="yes_partner_kids" name="g3_menu">
-  <option>Juniors Menu Options</option>
+  <option>Juniors Entree Options</option>
   <option value="Beef">Beef</option>
   <option value="Chicken">Chicken</option>
   <option value="Fish">Fish</option>
@@ -78,11 +81,11 @@
 </div>
 
 <div class="yes_partner_kids">
-<input name="g4_name" placeholder="Junior 2 Full Name (if applicable)" type="text">
+<input name="g4_name" placeholder="Jr 2 Name (if applicable)" type="text">
 <br>
 <br>
 <select name="g4_menu">
-  <option>Juniors Menu Options</option>
+  <option>Juniors Entree Options</option>
   <option value="Beef">Beef</option>
   <option value="Chicken">Chicken</option>
   <option value="Fish">Fish</option>

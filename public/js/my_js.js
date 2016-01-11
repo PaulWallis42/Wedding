@@ -5,6 +5,7 @@ $(".yes").hide();
 $(".send").hide();
 $(".yes_partner").hide();
 $(".yes_partner_kids").hide();
+$(".main_guest").hide();
 }
 
 //Function to Hide Popup
@@ -18,6 +19,7 @@ $(function(){
       $(".send").show();
       $(".yes_partner").hide();
       $(".yes_partner_kids").hide();
+      $(".main_guest").show();
   });
 });
 
@@ -27,6 +29,7 @@ $(function(){
       $(".yes").hide();
       $(".yes_partner").hide();
       $(".yes_partner_kids").hide();
+      $(".main_guest").show();
   });
 });
 
@@ -36,6 +39,7 @@ $(function(){
       $(".yes").show();
       $(".yes_partner").show();
       $(".yes_partner_kids").hide();
+      $(".main_guest").show();
   });
 });
 
@@ -46,5 +50,6 @@ $(function(){
       $(".yes").show();
       $(".yes_partner").show();
       $(".yes_partner_kids").show();
+      $(".main_guest").show();
   });
 });
