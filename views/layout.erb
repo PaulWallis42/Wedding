@@ -32,13 +32,14 @@
 <img id="close" src="images/3.png" onclick ="div_hide()">
 <h2>RSVP</h2>
 <h3>Attending The Wedding?</h3>
-<input id="yes" type="radio" name="attending" value="Yes">Yes
-<br>
-<input id="yes_partner" type="radio" name="attending" value="Yes">Yes + Partner
-<br>
-<input id="yes_partner_kids" type="radio" name="attending" value="Yes">Yes + Partner & Kid(s)!!!
-<br>
-<input id="no" type="radio" name="attending" value="No">No
+
+<select name="attending">
+  <option value" ">Please Select an Option</option>
+  <option value="Yes">Yes</option>
+  <option value="Yes_Partner">Yes + Partner</option>
+  <option value="Yes_Partner_Kids">Yes + Partner & Kid(s)!!!</option>
+  <option value="No">No</option>
+</select>
 
 <div class=main_guest>
 <input id="name" name="name" placeholder="Guest Name" type="text">
