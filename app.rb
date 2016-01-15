@@ -1,6 +1,7 @@
 require 'sinatra'
 require 'data_mapper'
 require './models/guests.rb'
+require 'tilt/erb'
 
 get '/' do
   erb :index
