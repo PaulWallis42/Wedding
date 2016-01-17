@@ -59,6 +59,7 @@ $(".main_guest").hide();
 //Function to Hide Popup
 function div_hide(){
 document.getElementById('abc').style.display = "none";
+location.reload();
 }
 
 $(function(){
@@ -71,6 +72,7 @@ $(function(){
         $(".yes_partner_kids").hide();
         $(".main_guest").show();
         yesFunction();
+        $("select[name=attending]").replaceWith("Yes");
 
                  } else if ($(this).val() == "Yes_Partner") {
                           $(".yes").show();
@@ -79,6 +81,7 @@ $(function(){
                           $(".main_guest").show();
                           $(".yes_partner_kids").hide();
                           yesPartner();
+                          $("select[name=attending]").replaceWith("Yes & Partner");
 
                                    } else if ($(this).val() == "Yes_Partner_Kids") {
                                            $(".yes").show();
@@ -87,6 +90,7 @@ $(function(){
                                            $(".main_guest").show();
                                            $(".yes_partner_kids").show();
                                            yesPartnerKids();
+                                           $("select[name=attending]").replaceWith("Yes with Partner & Kid(s)");
 
                                                     } else if ($(this).val() == "No") {
                                                              $(".main_guest").show();
@@ -95,6 +99,7 @@ $(function(){
                                                              $(".yes_partner").hide();
                                                              $(".yes").hide();
                                                              noFunction();
+                                                             $("select[name=attending]").replaceWith("No");
 
                                                              }
 
