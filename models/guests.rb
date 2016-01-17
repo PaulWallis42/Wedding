@@ -13,7 +13,6 @@ class Guest
   property :name,  String
   property :attending,    String
   property :others, String
-  property :requests, String
   property :guest1_menu, String
   property :partner_name, String
   property :partner_menu, String
@@ -22,7 +21,7 @@ class Guest
   property :child_2_name, String
   property :child_2_menu, String
   property :bbq, String
-
+  property :additional, String, :length => 1000
 end
 
 DataMapper.setup(:default, ENV['DATABASE_URL'] || 'postgres://localhost/mydb')
