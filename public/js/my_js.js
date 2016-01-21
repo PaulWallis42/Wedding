@@ -72,7 +72,7 @@ $(function(){
         $(".yes_partner_kids").hide();
         $(".main_guest").show();
         yesFunction();
-        $("select[name=attending]").replaceWith("Yes");
+        $("select[name=attending]").replaceWith("<input name='attending' class='reply_hide' value='Yes'></input>");
 
                  } else if ($(this).val() == "Yes_Partner") {
                           $(".yes").show();
@@ -81,7 +81,7 @@ $(function(){
                           $(".main_guest").show();
                           $(".yes_partner_kids").hide();
                           yesPartner();
-                          $("select[name=attending]").replaceWith("Yes & Partner");
+                          $("select[name=attending]").replaceWith("<input name='attending' class='reply_hide' value='Yes & Partner'></input>");
 
                                    } else if ($(this).val() == "Yes_Partner_Kids") {
                                            $(".yes").show();
@@ -90,7 +90,7 @@ $(function(){
                                            $(".main_guest").show();
                                            $(".yes_partner_kids").show();
                                            yesPartnerKids();
-                                           $("select[name=attending]").replaceWith("Yes with Partner & Kid(s)");
+                                           $("select[name=attending]").replaceWith("<input name='attending' class='reply_hide' value='Yes Partner & Kid(s)!!!'></input>");
 
                                                     } else if ($(this).val() == "No") {
                                                              $(".main_guest").show();
@@ -99,7 +99,7 @@ $(function(){
                                                              $(".yes_partner").hide();
                                                              $(".yes").hide();
                                                              noFunction();
-                                                             $("select[name=attending]").replaceWith("No");
+                                                             $("select[name=attending]").replaceWith("<input name='attending' class='reply_hide' value='No'></input>");
 
                                                              }
 

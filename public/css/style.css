@@ -71,3 +71,8 @@
   color: white;
   margin-left: 42%;
 }
+
+.reply_hide {
+  border: none;
+  font-size: large;
+}
