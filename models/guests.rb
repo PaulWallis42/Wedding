@@ -11,7 +11,7 @@ class Guest
   # these property declarations set the column headers in the Link table
   property :id,     Serial # Serial means that it will be auto-incremented for every record
   property :name,  String
-  property :attending,    String
+  property :attending, String
   property :others, String
   property :guest1_menu, String
   property :partner_name, String
