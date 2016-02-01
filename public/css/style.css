@@ -123,3 +123,7 @@ h3 {
 p {
   font-size: 2vh;
 }
+
+.blink {
+  display: none;
+}

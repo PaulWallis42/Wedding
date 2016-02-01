@@ -1,5 +1,9 @@
 //Function To Display Popup
 
+$(function() {
+  $('body').removeClass('blink');
+});
+
 function noFunction() {
   $( "#form" ).submit(function( event ) {
     if ($('#name').val() == '') {
