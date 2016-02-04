@@ -118,22 +118,29 @@ h4 {
 }
 
 .wednesday {
-  margin-top: 10%;
   color: white;
   font-family: fantasy, "Helvetica Neue", Helvetica, Arial, Sans-Serif;
-  width: 33vw;
+  width: 25vw;
+  display: inline-block;
+  float: left;
+  margin-left: 2%;
 }
 
 .thursday {
   color: white;
   font-family: fantasy, "Helvetica Neue", Helvetica, Arial, Sans-Serif;
-  width: 33vw;
+  width: 25vw;
+  display: inline-block;
+  margin-left: 10%;
 }
 
 .registry {
   color: white;
   font-family: fantasy, "Helvetica Neue", Helvetica, Arial, Sans-Serif;
-  width: 33vw;
+  width: 25vw;
+  display: inline-block;
+  float: right;
+  margin-right: 2%;
 }
 
 a {
@@ -144,23 +151,36 @@ a {
   color: white;
   font-family: fantasy, "Helvetica Neue", Helvetica, Arial, Sans-Serif;
   width: 33vw;
+  margin-top: 5%;
+  margin-left: 33%;
 }
 
 .travel_options {
-  margin-top: 10%;
   color: white;
   font-family: fantasy, "Helvetica Neue", Helvetica, Arial, Sans-Serif;
-  width: 33vw;
+  width: 25vw;
+  display: inline-block;
+  float: left;
+  margin-left: 2%;
 }
 
 .eating {
   color: white;
   font-family: fantasy, "Helvetica Neue", Helvetica, Arial, Sans-Serif;
-  width: 33vw;
+  width: 25vw;
+  display: inline-block;
+  margin-left: 15%;
 }
 
 .boston {
   color: white;
   font-family: fantasy, "Helvetica Neue", Helvetica, Arial, Sans-Serif;
-  width: 33vw;
+  width: 25vw;
+  display: inline-block;
+  float: right;
+  margin-right: 2%;
+}
+
+#travel_master_div {
+  margin-top: 5%;
 }
