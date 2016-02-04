@@ -40,3 +40,7 @@ end
 get '/pictures' do
   erb :pictures
 end
+
+get '/travel' do
+  erb :travel
+end
