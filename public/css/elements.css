@@ -11,7 +11,8 @@ left:0;
 display:none;
 position:fixed;
 background-color:#313131;
-overflow:auto
+overflow:auto;
+z-index: 1000;
 }
 img#close {
 position:absolute;
@@ -26,7 +27,7 @@ position:absolute;
 left:50%;
 top:17%;
 margin-left:-202px;
-font-family:'Raleway',sans-serif
+font-family:'Raleway',sans-serif;
 }
 form {
 max-width:300px;

@@ -95,9 +95,10 @@
 #div_2 {
   color: white;
   font-family: fantasy, "Helvetica Neue", Helvetica, Arial, Sans-Serif;
-  margin-left: 12.5%;
+  margin-left: 10.5%;
   margin-right: 8%;
   position: absolute;
+  z-index: 100;
 }
 
 
