@@ -63,8 +63,9 @@
 #pic-page {
   position: absolute;
   margin-top: 5%;
-  margin-left: 30%;
+  margin-left: 16%;
   z-index: -1;
+  width: 66%;
 }
 
 .image_text {
