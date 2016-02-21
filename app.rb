@@ -44,3 +44,19 @@ end
 get '/travel' do
   erb :travel
 end
+
+post '/message' do
+  Message.create(name: params[:name], message: params[:message], subject: params[:subject])
+  redirect to('/messages')
+end
+
+get '/messages' do
+  @message = Message.all
+  @answer = Answer.all
+  erb :messages
+end
+
+post '/reply' do
+  Message.get(params[:id]).answers.create(name: params[:name], answer: params[:answer])
+  redirect to('/messages')
+end

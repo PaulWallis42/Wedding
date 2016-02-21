@@ -24,6 +24,31 @@ class Guest
   property :additional, String, :length => 1000
 end
 
+class Message
+
+  include DataMapper::Resource
+
+  property :id, Serial
+  property :name, String
+  property :message, String, :length => 1000
+  property :subject, String
+
+  has n, :answers
+
+end
+
+class Answer
+
+  include DataMapper::Resource
+
+  property :id, Serial
+  property :name, String
+  property :answer, String, :length => 1000
+
+  belongs_to :message
+
+end
+
 DataMapper.setup(:default, ENV['DATABASE_URL'] || 'postgres://localhost/mydb')
 DataMapper.finalize
 DataMapper.auto_upgrade!

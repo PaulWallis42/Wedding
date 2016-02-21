@@ -200,3 +200,99 @@ hr {
   bottom: 8px;
   left: 16px;
 }
+
+#message_body {
+  color: white;
+}
+
+li {
+  list-style: none;
+}
+
+#message_form {
+  margin-top: 5%;
+  background-color: grey;
+  width: 700px;
+}
+
+.message_form_div {
+  margin-top: 5%;
+  background-color: grey;
+  width: 700px;
+  border-radius: 12px;
+}
+
+.reply_form {
+  display: none;
+}
+
+.submit_button {
+  background-color: green;
+  font-size: 16px;
+  border-radius: 12px;
+  border: none;
+  color: white;
+  width: 150px;
+}
+
+.message_text_area {
+  width: 500px;
+}
+
+.reply_form_vis {
+  width: 50%;
+  margin-top: 5%;
+  background-color: grey;
+  width: 700px;
+}
+
+.submit_button_1 {
+  background-color: green;
+  font-size: 16px;
+  border-radius: 12px;
+  border: none;
+  color: white;
+  width: 150px;
+}
+
+.submit_button_2 {
+  background-color: red;
+  font-size: 16px;
+  border-radius: 12px;
+  border: none;
+  color: white;
+  width: 100px;
+  display: inline;
+}
+
+.message_form_div_hide {
+  display: none;
+}
+
+.start_thread {
+  background-color: red;
+  font-size: 16px;
+  border-radius: 12px;
+  border: none;
+  color: white;
+  width: 300px;
+}
+
+.h3_indent {
+  text-indent: 20px;
+  color: white;
+}
+
+.p_indent {
+  text-indent: 40px;
+  color: white;
+}
+
+.welcome_message {
+  margin-top: 5%;
+  color: white;
+}
+
+.white_text {
+  color: white;
+}
